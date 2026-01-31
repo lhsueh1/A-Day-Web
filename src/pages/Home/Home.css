@@ -346,22 +346,6 @@
   margin: 0 auto;
 }
 
-.intro-heading {
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: var(--sage-green);
-  margin-bottom: 16px;
-}
-
-.intro-description {
-  text-align: center;
-  color: var(--text-secondary);
-  font-size: 1.15rem;
-  max-width: 500px;
-  margin: 0 auto 60px;
-}
-
 /* Feature Cards */
 .feature-grid {
   display: flex;
@@ -495,18 +479,14 @@
   font-weight: 600;
 }
 
+.bottom-buttons {
+  margin-top: 60px;
+}
+
 /* Intro Section Responsive */
 @media (max-width: 768px) {
   .intro-section {
     padding: 60px 20px;
-  }
-
-  .intro-heading {
-    font-size: 2rem;
-  }
-
-  .intro-description {
-    margin-bottom: 40px;
   }
 
   .feature-grid {

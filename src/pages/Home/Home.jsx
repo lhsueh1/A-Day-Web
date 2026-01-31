@@ -54,43 +54,12 @@ function Home() {
             </svg>
           </div>
 
-          <div className="home-buttons">
-            <Link to="/privacy" className="home-button">
-              <span className="button-icon">
-                <svg viewBox="0 0 20 20" fill="currentColor">
-                  <path d="M10 2L3 6v6c0 4 3 7 7 8 4-1 7-4 7-8V6l-7-4z"/>
-                </svg>
-              </span>
-              {t('privacyPolicy')}
-            </Link>
-            <Link to="/terms" className="home-button">
-              <span className="button-icon">
-                <svg viewBox="0 0 20 20" fill="currentColor">
-                  <path d="M4 2h12a1 1 0 011 1v14a1 1 0 01-1 1H4a1 1 0 01-1-1V3a1 1 0 011-1zm2 3v2h8V5H6zm0 4v2h8V9H6zm0 4v2h5v-2H6z"/>
-                </svg>
-              </span>
-              {t('termsAndConditions')}
-            </Link>
-            <Link to="/about" className="home-button">
-              <span className="button-icon">
-                <svg viewBox="0 0 20 20" fill="currentColor">
-                  <path d="M10 2a8 8 0 100 16A8 8 0 0010 2zm0 3a2 2 0 110 4 2 2 0 010-4zm0 4a1 1 0 011 1v4a1 1 0 11-2 0v-4a1 1 0 011-1z"/>
-                </svg>
-              </span>
-              {t('contacts')}
-            </Link>
-          </div>
         </div>
       </section>
 
       {/* App Intro Section */}
       <section className="intro-section">
         <div className="intro-container">
-          <h2 className="intro-heading">Discover A Day App</h2>
-          <p className="intro-description">
-            Your personal companion for mindful daily journaling and reflection.
-          </p>
-
           {/* Feature Cards */}
           <div className="feature-grid">
             {/* Feature 1 - Image Left */}
@@ -171,6 +140,33 @@ function Home() {
                 </div>
               </a>
             </div>
+          </div>
+          {/* Bottom Links */}
+          <div className="home-buttons bottom-buttons">
+            <Link to="/privacy" className="home-button">
+              <span className="button-icon">
+                <svg viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M10 2L3 6v6c0 4 3 7 7 8 4-1 7-4 7-8V6l-7-4z"/>
+                </svg>
+              </span>
+              {t('privacyPolicy')}
+            </Link>
+            <Link to="/terms" className="home-button">
+              <span className="button-icon">
+                <svg viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M4 2h12a1 1 0 011 1v14a1 1 0 01-1 1H4a1 1 0 01-1-1V3a1 1 0 011-1zm2 3v2h8V5H6zm0 4v2h8V9H6zm0 4v2h5v-2H6z"/>
+                </svg>
+              </span>
+              {t('termsAndConditions')}
+            </Link>
+            <Link to="/about" className="home-button">
+              <span className="button-icon">
+                <svg viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M10 2a8 8 0 100 16A8 8 0 0010 2zm0 3a2 2 0 110 4 2 2 0 010-4zm0 4a1 1 0 011 1v4a1 1 0 11-2 0v-4a1 1 0 011-1z"/>
+                </svg>
+              </span>
+              {t('contacts')}
+            </Link>
           </div>
         </div>
       </section>
