@@ -14,9 +14,7 @@ function Contacts() {
 
           <div className="contacts-email">
             <h2>{t('email')}</h2>
-            <a href="mailto:contact@adayapp.com" className="email-link">
-              contact@adayapp.com
-            </a>
+              irilia1018@gmail.com
           </div>
         </div>
       </div>

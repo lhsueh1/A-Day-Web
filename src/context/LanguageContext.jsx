@@ -53,7 +53,7 @@ const translations = {
     appName: 'A Day App',
 
     // Home
-    homeSubtitle: '規劃你的完美一天',
+    homeSubtitle: '規劃完美的一天',
     privacyPolicy: '隱私權政策',
     termsAndConditions: '服務條款',
     contacts: '聯絡我們',
@@ -90,8 +90,8 @@ const translations = {
 
     // Contacts
     contactsTitle: '聯絡我們',
-    contactsIntro: '我們很樂意聽取您的意見！無論您對 A Day App 有任何問題、回饋或建議，我們的團隊都會為您提供協助。請與我們聯繫，我們會盡快回覆您。',
-    email: '電子郵件',
+    contactsIntro: '歡迎任何問題、回饋或建議，我們會盡快回覆您。',
+    email: '信箱',
   }
 }
 
