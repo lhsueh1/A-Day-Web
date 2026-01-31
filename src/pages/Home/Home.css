@@ -443,40 +443,19 @@
 .download-button {
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 12px 24px;
-  background: var(--text-primary);
-  color: var(--bg-primary);
-  border-radius: 12px;
   transition: all 0.3s ease;
 }
 
 .download-button:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-  color: var(--bg-primary);
+  border-radius: 8px;
 }
 
-.store-icon {
-  width: 28px;
-  height: 28px;
-}
-
-.download-text {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-align: left;
-}
-
-.download-label {
-  font-size: 0.7rem;
-  opacity: 0.8;
-}
-
-.download-store {
-  font-size: 1.1rem;
-  font-weight: 600;
+.store-badge {
+  height: 40px;
+  width: auto;
+  display: block;
 }
 
 .bottom-buttons {
@@ -521,8 +500,6 @@
   }
 
   .download-button {
-    width: 100%;
-    max-width: 220px;
     justify-content: center;
   }
 }
