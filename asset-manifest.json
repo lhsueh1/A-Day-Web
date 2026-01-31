@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/A-Day-Web/static/css/main.4ec0a465.css",
+    "main.js": "/A-Day-Web/static/js/main.1ac20b4d.js",
+    "static/js/787.71e672d5.chunk.js": "/A-Day-Web/static/js/787.71e672d5.chunk.js",
+    "index.html": "/A-Day-Web/index.html",
+    "main.4ec0a465.css.map": "/A-Day-Web/static/css/main.4ec0a465.css.map",
+    "main.1ac20b4d.js.map": "/A-Day-Web/static/js/main.1ac20b4d.js.map",
+    "787.71e672d5.chunk.js.map": "/A-Day-Web/static/js/787.71e672d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ec0a465.css",
+    "static/js/main.1ac20b4d.js"
+  ]
+}
