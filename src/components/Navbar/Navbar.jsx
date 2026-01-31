@@ -15,7 +15,7 @@ function Navbar() {
         </Link>
         <div className="navbar-controls">
           <LanguageToggle />
-          {/*<ThemeToggle />*/}
+          <ThemeToggle />
         </div>
       </div>
     </nav>
