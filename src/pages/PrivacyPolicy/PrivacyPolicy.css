@@ -1,0 +1,52 @@
+.privacy-policy {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.page-container {
+  background-color: var(--card-bg);
+  backdrop-filter: blur(10px);
+  border-radius: 24px;
+  padding: 48px;
+  box-shadow: var(--shadow-soft);
+}
+
+.page-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--sage-green);
+  margin-bottom: 32px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid var(--sage-green-soft);
+}
+
+.policy-section {
+  margin-bottom: 32px;
+}
+
+.policy-section:last-child {
+  margin-bottom: 0;
+}
+
+.policy-section h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+
+.policy-section p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+@media (max-width: 640px) {
+  .page-container {
+    padding: 24px;
+    border-radius: 16px;
+  }
+
+  .page-title {
+    font-size: 1.5rem;
+  }
+}

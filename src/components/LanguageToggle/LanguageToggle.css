@@ -1,0 +1,16 @@
+.language-toggle {
+  background: transparent;
+  border: 1px solid var(--sage-green);
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 8px;
+  color: var(--sage-green);
+  font-weight: 600;
+  font-size: 0.875rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.language-toggle:hover {
+  background-color: var(--sage-green);
+  color: white;
+}

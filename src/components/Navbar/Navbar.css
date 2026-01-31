@@ -1,0 +1,33 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: var(--nav-bg);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--sage-green-soft);
+  z-index: 100;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--sage-green);
+}
+
+.navbar-logo:hover {
+  color: var(--sage-green-light);
+}
+
+.navbar-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
