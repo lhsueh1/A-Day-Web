@@ -75,11 +75,8 @@ function Home() {
                 </div>
               </div>
               <div className="feature-content">
-                <h3 className="feature-title">Daily Journaling</h3>
-                <p className="feature-text">
-                  Capture your thoughts, feelings, and memorable moments every day.
-                  Our intuitive interface makes journaling a joy, not a chore.
-                </p>
+                <h3 className="feature-title">{t('feature1Title')}</h3>
+                <p className="feature-text">{t('feature1Text')}</p>
               </div>
             </div>
 
@@ -96,11 +93,8 @@ function Home() {
                 </div>
               </div>
               <div className="feature-content">
-                <h3 className="feature-title">Beautiful Memories</h3>
-                <p className="feature-text">
-                  Add photos to your entries and relive your favorite moments.
-                  Create a visual timeline of your life's journey.
-                </p>
+                <h3 className="feature-title">{t('feature2Title')}</h3>
+                <p className="feature-text">{t('feature2Text')}</p>
               </div>
             </div>
 
@@ -117,18 +111,15 @@ function Home() {
                 </div>
               </div>
               <div className="feature-content">
-                <h3 className="feature-title">Private & Secure</h3>
-                <p className="feature-text">
-                  Your entries are yours alone. We prioritize your privacy with
-                  secure storage and no third-party tracking.
-                </p>
+                <h3 className="feature-title">{t('feature3Title')}</h3>
+                <p className="feature-text">{t('feature3Text')}</p>
               </div>
             </div>
           </div>
 
           {/* Download CTA */}
           <div className="download-section">
-            <h3 className="download-title">Ready to start your journey?</h3>
+            <h3 className="download-title">{t('downloadTitle')}</h3>
             <div className="download-buttons">
               <a href="#" className="download-button">
                 <svg viewBox="0 0 24 24" fill="currentColor" className="store-icon">

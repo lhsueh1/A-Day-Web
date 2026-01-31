@@ -9,6 +9,13 @@ const translations = {
 
     // Home
     homeSubtitle: 'Plan your perfect day',
+    feature1Title: 'AI-Powered Task Breakdown',
+    feature1Text: 'Describe a complex goal, and A Day uses AI to break it down into clear, actionable subtasks — each with its own schedule. Turn big ideas into manageable daily steps.',
+    feature2Title: 'Smart Scheduling',
+    feature2Text: 'Organize your day with flexible scheduling built around subtasks. Set time ranges, multi-day tasks, or anytime todos — and see everything laid out in a clean calendar view.',
+    feature3Title: 'Privacy First',
+    feature3Text: 'Your tasks stay on your device. A Day stores all data locally with no cloud tracking and no third-party access. What you plan is yours alone.',
+    downloadTitle: 'Ready to start your day?',
     privacyPolicy: 'Privacy Policy',
     termsAndConditions: 'Terms and Conditions',
     contacts: 'About Us',
@@ -82,6 +89,13 @@ const translations = {
 
     // Home
     homeSubtitle: '規劃完美的一天',
+    feature1Title: 'AI 智慧任務分解',
+    feature1Text: '給出一個大目標，A Day 會用 AI 幫您拆分成一個個具體可行的子任務，並安排好日程。把大計畫變成每天可動手的小步驟，進度清晰又輕鬆。',
+    feature2Title: '智慧排程',
+    feature2Text: '從子任務開始排程，時間範圍、多日任務、隨時待辦都可以彈性設定。所有任務整理在日曆裡，今天該做什麼，一眼就看清楚。',
+    feature3Title: '隱私第一',
+    feature3Text: '所有資料都存在您的裝置上，不會上傳到雲端，也不會被第三方存取。您要怎麼安排一天的事務，完全由您說了算。',
+    downloadTitle: '準備開始您的一天？',
     privacyPolicy: '隱私權政策',
     termsAndConditions: '服務條款',
     contacts: '關於我們',
