@@ -54,7 +54,7 @@ function PrivacyPolicy() {
         <section className="policy-section">
           <h2>{t('privacy9Title')}</h2>
           <p>
-            {t('privacy9Text')} <a href="mailto:contact@adayapp.com">contact@adayapp.com</a>
+            {t('privacy9Text')} <a href="mailto:contact@adayapp.com">irilia1018@gmail.com</a>
           </p>
         </section>
       </div>

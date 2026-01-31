@@ -71,10 +71,10 @@ function Home() {
               </span>
               {t('termsAndConditions')}
             </Link>
-            <Link to="/contacts" className="home-button">
+            <Link to="/about" className="home-button">
               <span className="button-icon">
                 <svg viewBox="0 0 20 20" fill="currentColor">
-                  <path d="M2 5a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm3 1v1h10V6H5zm0 3v1h7V9H5zm0 3v1h4v-1H5z"/>
+                  <path d="M10 2a8 8 0 100 16A8 8 0 0010 2zm0 3a2 2 0 110 4 2 2 0 010-4zm0 4a1 1 0 011 1v4a1 1 0 11-2 0v-4a1 1 0 011-1z"/>
                 </svg>
               </span>
               {t('contacts')}

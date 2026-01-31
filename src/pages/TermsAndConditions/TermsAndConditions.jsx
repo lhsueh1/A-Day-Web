@@ -84,7 +84,7 @@ function TermsAndConditions() {
         <section className="terms-section">
           <h2>{t('terms15Title')}</h2>
           <p>
-            {t('terms15Text')} <a href="mailto:contact@adayapp.com">contact@adayapp.com</a>
+            {t('terms15Text')} <a href="mailto:contact@adayapp.com">irilia1018@gmail.com</a>
           </p>
         </section>
       </div>

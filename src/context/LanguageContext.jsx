@@ -11,7 +11,7 @@ const translations = {
     homeSubtitle: 'Plan your perfect day',
     privacyPolicy: 'Privacy Policy',
     termsAndConditions: 'Terms and Conditions',
-    contacts: 'Contacts',
+    contacts: 'About Us',
 
     // Privacy Policy
     privacyTitle: 'Privacy Policy',
@@ -71,8 +71,8 @@ const translations = {
     terms15Title: '15. Contact Us',
     terms15Text: 'If you have any questions, concerns, or complaints about these Terms, please contact us at',
 
-    // Contacts
-    contactsTitle: 'Contact Us',
+    // About Us
+    contactsTitle: 'About Us',
     contactsIntro: 'We would love to hear from you! Whether you have questions, feedback, or suggestions for A Day App, our team is here to help. Reach out to us and we will get back to you as soon as possible.',
     email: 'Email',
   },
@@ -84,7 +84,7 @@ const translations = {
     homeSubtitle: '規劃完美的一天',
     privacyPolicy: '隱私權政策',
     termsAndConditions: '服務條款',
-    contacts: '聯絡我們',
+    contacts: '關於我們',
 
     // Privacy Policy
     privacyTitle: '隱私權政策',
@@ -144,8 +144,8 @@ const translations = {
     terms15Title: '15. 聯絡我們',
     terms15Text: '如果您對這些條款有任何疑問、疑慮或投訴，請透過以下方式聯絡我們：',
 
-    // Contacts
-    contactsTitle: '聯絡我們',
+    // About Us
+    contactsTitle: '關於我們',
     contactsIntro: '歡迎任何問題、回饋或建議，我們會盡快回覆您。',
     email: '信箱',
   }

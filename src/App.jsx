@@ -3,7 +3,7 @@ import Layout from './components/Layout/Layout'
 import Home from './pages/Home/Home'
 import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy'
 import TermsAndConditions from './pages/TermsAndConditions/TermsAndConditions'
-import Contacts from './pages/Contacts/Contacts'
+import AboutUs from './pages/AboutUs/AboutUs'
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="privacy" element={<PrivacyPolicy />} />
         <Route path="terms" element={<TermsAndConditions />} />
-        <Route path="contacts" element={<Contacts />} />
+        <Route path="about" element={<AboutUs />} />
       </Route>
     </Routes>
   )

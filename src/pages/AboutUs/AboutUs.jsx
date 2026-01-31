@@ -1,7 +1,7 @@
 import { useLanguage } from '../../hooks/useLanguage'
-import './Contacts.css'
+import './AboutUs.css'
 
-function Contacts() {
+function AboutUs() {
   const { t } = useLanguage()
 
   return (
@@ -22,4 +22,4 @@ function Contacts() {
   )
 }
 
-export default Contacts
+export default AboutUs
