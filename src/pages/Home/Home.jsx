@@ -1,5 +1,8 @@
 import { Link } from 'react-router-dom'
 import { useLanguage } from '../../hooks/useLanguage'
+import screenshotHome from './Simulator_Screenshot_iPhone_17_Pro_2026_05_10_at_13_37_08.png'
+import screenshotCalendar from './Simulator_Screenshot_iPhone_17_Pro_2026_05_10_at_13_37_12.png'
+import screenshotMindful from './IMG_3410.png'
 import './Home.css'
 
 function Home() {
@@ -65,20 +68,13 @@ function Home() {
             {/* Feature 1 - Image Left */}
             <div className="feature-card">
               <div className="feature-image">
-                <div className="image-placeholder">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                    <rect x="3" y="3" width="18" height="18" rx="2"/>
-                    <circle cx="8.5" cy="8.5" r="1.5"/>
-                    <path d="M21 15l-5-5L5 21"/>
-                  </svg>
-                  <span>Screenshot 1</span>
-                </div>
+                <img src={screenshotHome} alt="A Day home screen showing daily tasks" className="screenshot-img" />
               </div>
               <div className="feature-content">
-                <h3 className="feature-title">Daily Journaling</h3>
+                <h3 className="feature-title">Your Daily To-Do List</h3>
                 <p className="feature-text">
-                  Capture your thoughts, feelings, and memorable moments every day.
-                  Our intuitive interface makes journaling a joy, not a chore.
+                  Capture every task in one place and stay on top of your day.
+                  Add deadlines, break down complex goals, and check things off as you go.
                 </p>
               </div>
             </div>
@@ -86,20 +82,13 @@ function Home() {
             {/* Feature 2 - Image Right */}
             <div className="feature-card feature-card-reverse">
               <div className="feature-image">
-                <div className="image-placeholder">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                    <rect x="3" y="3" width="18" height="18" rx="2"/>
-                    <circle cx="8.5" cy="8.5" r="1.5"/>
-                    <path d="M21 15l-5-5L5 21"/>
-                  </svg>
-                  <span>Screenshot 2</span>
-                </div>
+                <img src={screenshotCalendar} alt="A Day calendar view" className="screenshot-img" />
               </div>
               <div className="feature-content">
-                <h3 className="feature-title">Beautiful Memories</h3>
+                <h3 className="feature-title">See Everything at a Glance</h3>
                 <p className="feature-text">
-                  Add photos to your entries and relive your favorite moments.
-                  Create a visual timeline of your life's journey.
+                  Get a clear view of your week and month with the built-in calendar.
+                  Spot conflicts, plan ahead, and keep all your tasks organized in one simple view.
                 </p>
               </div>
             </div>
@@ -107,20 +96,13 @@ function Home() {
             {/* Feature 3 - Image Left */}
             <div className="feature-card">
               <div className="feature-image">
-                <div className="image-placeholder">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                    <rect x="3" y="3" width="18" height="18" rx="2"/>
-                    <circle cx="8.5" cy="8.5" r="1.5"/>
-                    <path d="M21 15l-5-5L5 21"/>
-                  </svg>
-                  <span>Screenshot 3</span>
-                </div>
+                <img src={screenshotMindful} alt="A Day mindful pause tracker" className="screenshot-img" />
               </div>
               <div className="feature-content">
-                <h3 className="feature-title">Private & Secure</h3>
+                <h3 className="feature-title">Mindful Breaks, Less Screen Time</h3>
                 <p className="feature-text">
-                  Your entries are yours alone. We prioritize your privacy with
-                  secure storage and no third-party tracking.
+                  Get gentle reminders to step away before your screen time adds up.
+                  Build healthy habits with mindful pauses that keep you focused and refreshed throughout the day.
                 </p>
               </div>
             </div>
