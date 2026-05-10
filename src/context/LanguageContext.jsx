@@ -9,6 +9,13 @@ const translations = {
 
     // Home
     homeSubtitle: 'Plan your perfect day',
+    feature1Title: 'Your Daily To-Do List',
+    feature1Text: 'Capture every task in one place and stay on top of your day. Add deadlines, break down complex goals, and check things off as you go.',
+    feature2Title: 'See Everything at a Glance',
+    feature2Text: 'Get a clear view of your week and month with the built-in calendar. Spot conflicts, plan ahead, and keep all your tasks organized in one simple view.',
+    feature3Title: 'Mindful Breaks, Less Screen Time',
+    feature3Text: 'Get gentle reminders to step away before your screen time adds up. Build healthy habits with mindful pauses that keep you focused and refreshed throughout the day.',
+    downloadTitle: 'Ready to start your day?',
     privacyPolicy: 'Privacy Policy',
     termsAndConditions: 'Terms and Conditions',
     contacts: 'About Us',
@@ -82,6 +89,13 @@ const translations = {
 
     // Home
     homeSubtitle: '規劃完美的一天',
+    feature1Title: '每日待辦清單',
+    feature1Text: '把所有任務集中在一個地方，輕鬆掌握每天的進度。新增截止日期、拆解複雜目標，一項一項確認完成。',
+    feature2Title: '行程一目了然',
+    feature2Text: '內建日曆讓您清楚看到整週和整月的安排。輕鬆發現時間衝突、提前規劃，所有任務都整理在一個簡潔的視圖裡。',
+    feature3Title: '適時休息，減少螢幕時間',
+    feature3Text: '在螢幕時間累積之前，收到溫和的提醒，讓自己適時離開。透過專注休息培養健康習慣，讓您整天保持清醒與專注。',
+    downloadTitle: '準備開始您的一天？',
     privacyPolicy: '隱私權政策',
     termsAndConditions: '服務條款',
     contacts: '關於我們',

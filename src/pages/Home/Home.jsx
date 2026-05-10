@@ -71,11 +71,8 @@ function Home() {
                 <img src={screenshotHome} alt="A Day home screen showing daily tasks" className="screenshot-img" />
               </div>
               <div className="feature-content">
-                <h3 className="feature-title">Your Daily To-Do List</h3>
-                <p className="feature-text">
-                  Capture every task in one place and stay on top of your day.
-                  Add deadlines, break down complex goals, and check things off as you go.
-                </p>
+                <h3 className="feature-title">{t('feature1Title')}</h3>
+                <p className="feature-text">{t('feature1Text')}</p>
               </div>
             </div>
 
@@ -85,11 +82,8 @@ function Home() {
                 <img src={screenshotCalendar} alt="A Day calendar view" className="screenshot-img" />
               </div>
               <div className="feature-content">
-                <h3 className="feature-title">See Everything at a Glance</h3>
-                <p className="feature-text">
-                  Get a clear view of your week and month with the built-in calendar.
-                  Spot conflicts, plan ahead, and keep all your tasks organized in one simple view.
-                </p>
+                <h3 className="feature-title">{t('feature2Title')}</h3>
+                <p className="feature-text">{t('feature2Text')}</p>
               </div>
             </div>
 
@@ -99,27 +93,18 @@ function Home() {
                 <img src={screenshotMindful} alt="A Day mindful pause tracker" className="screenshot-img" />
               </div>
               <div className="feature-content">
-                <h3 className="feature-title">Mindful Breaks, Less Screen Time</h3>
-                <p className="feature-text">
-                  Get gentle reminders to step away before your screen time adds up.
-                  Build healthy habits with mindful pauses that keep you focused and refreshed throughout the day.
-                </p>
+                <h3 className="feature-title">{t('feature3Title')}</h3>
+                <p className="feature-text">{t('feature3Text')}</p>
               </div>
             </div>
           </div>
 
           {/* Download CTA */}
           <div className="download-section">
-            <h3 className="download-title">Ready to start your journey?</h3>
+            <h3 className="download-title">{t('downloadTitle')}</h3>
             <div className="download-buttons">
               <a href="#" className="download-button">
-                <svg viewBox="0 0 24 24" fill="currentColor" className="store-icon">
-                  <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
-                </svg>
-                <div className="download-text">
-                  <span className="download-label">Download on the</span>
-                  <span className="download-store">App Store</span>
-                </div>
+                <img src="/app-store-badge.svg" alt="Download on the App Store" className="store-badge" />
               </a>
             </div>
           </div>
